@@ -1,0 +1,96 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-image: linear-gradient(to right, red , yellow);
+	/*height: 100%;
+	width: 100%;*/
+}
+.container {
+	margin-top: 300px;
+	display: flex;
+	justify-content: center;
+	
+	height: 100%;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.wrapper {
+	border-radius: 5px;
+	/*outline: 1px solid green;*/
+	width: 500px;
+	background: #fff;
+	/*height: auto;*/
+	padding: 20px;
+	position: relative;
+	line-height: 2;
+	box-shadow: 0 0 10px white;
+}
+
+.header-day {
+	color: blue;
+	display: inline;
+
+}
+
+.month {
+
+	padding: 0;
+	color: #888;
+	margin: 0;
+}
+
+.count-task {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	
+}
+.inp-wrap {
+
+	/*width: 300px;*/
+	height: 40px;
+	/*border: 1px solid blue;*/
+	padding: 0;
+	margin: 0;
+	/*background: #000;*/
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin: 0 auto;
+
+
+}
+.input-text {
+	border: none;
+	box-shadow: 0 1px 0 red;
+	
+	padding: 6px 10px;
+	margin-right: 2px;
+}
+.check {
+	border: none;
+	width: 30px;
+	height: 40px;
+
+
+}
+
+.btn-todo {
+	cursor: pointer;
+	padding: 6px 10px;
+	color: #fff;
+	background: tomato;
+	border: none;
+}
+.todo-header {
+	
+	position: absolute;
+	top: 0;
+	left: 36%;
+	color: gray;
+	text-shadow: 0 0 2px #fff;
+}
